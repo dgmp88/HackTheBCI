@@ -36,7 +36,7 @@ if __name__ == '__main__':
 	parser.set_defaults(filtering=True)
 	parser.add_argument('-d', '--daisy', dest='daisy', action='store_true',
 				help="Force daisy mode (beta feature)")
-	parser.set_defaults(daisy=False)
+	parser.set_defaults(daisy=True)
 	# first argument: plugin name, then parameters for plugin
 	parser.add_argument('-a', '--add', metavar=('PLUGIN', 'PARAM'), action='append', nargs='+',
 			help="Select which plugins to activate and set parameters.")
