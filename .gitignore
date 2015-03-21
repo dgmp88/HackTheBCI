@@ -4,3 +4,7 @@ OpenBCI_Hub/
 OpenBCI_Processing/
 
 
+# Ignore data
+.h5
+.csv
+.pyc
